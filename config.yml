@@ -1,5 +1,6 @@
 baseURL     : http://mayakey.github.io/
-title       : Maya Key Blog
+title       : MayaKey Blog
+description : MayaKey Blog
 theme       : PaperMod
 languageCode: en-us
 publishDir  : docs
@@ -8,7 +9,3 @@ params:
     # defaultTheme: light
     # defaultTheme: dark
     defaultTheme: auto # to switch between dark or light according to browser theme
-    homeInfoParams:
-        Title: Hi there wave
-        Content: Can be Info, links, about...
-

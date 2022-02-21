@@ -1,11 +1,90 @@
-baseURL     : https://mayakey.github.io/
+# config.yml - with Japanese Description
+#
+# This YAML contains configure of "MayaKey Blog" website.
+# In addition, also contains hugo configure items with Japanese translation.
+# To see orignal description, please visit https://gohugo.io/getting-started/configuration/
+
+# https://gohugo.io/getting-started/configuration/#archetypedir
+# Hugoがアーキタイプファイル(コンテンツの雛形)を検索するディレクトリ。
+# "Module Mounts Config"では異なる設定方法を説明している。(Hugo 0.56以降)
+# archetypeDir: archetypes
+
+# https://gohugo.io/getting-started/configuration/#assetdir
+# "Hugo Pipes"で使用するアセットファイルを検索するディレクトリ。
+# "Module Mounts Config"では異なる設定方法を説明している。(Hugo 0.56以降)
+# assetDir: “assets”
+
+# https://gohugo.io/getting-started/configuration/#baseurl
+# ルートとなるホスト名(とパス)。例えば， https://bep.is/
+baseURL: https://mayakey.github.io/
+
+# https://gohugo.io/getting-started/configuration/#blackfriday
+# "Configure Blackfriday"を参照のこと。
+
+# https://gohugo.io/getting-started/configuration/#build
+# "Configure Build"を参照のこと。
+
+# https://gohugo.io/getting-started/configuration/#builddrafts-false
+# 構築（build)時に草稿(drafts)も含める。
+# buildDrafts: false
+
+# https://gohugo.io/getting-started/configuration/#buildexpired
+# 有効期限を過ぎたコンテンツも含める。
+# buildExpired: false
+
+# https://gohugo.io/getting-started/configuration/#buildfuture
+# 発行日(publishdate)が未来のコンテンツも含める。
+# buildFuture: false
+
+# https://gohugo.io/getting-started/configuration/#caches
+# "Configure File Caches"を参照のこと。
+
+# https://gohugo.io/getting-started/configuration/#cascade
+# コンテンツツリーの各ページへfont matterのデフォルト設定値を引き継ぐ。
+# ページのfont matterと同じオプションをサイト設定で使用できる。
+# "Front Matter Cascade"を参照のこと。
+
+# https://gohugo.io/getting-started/configuration/#canonifyurls
+# 相対URLから絶対URLへ変換する。
+# canonifyURLs: false
+
+# https://gohugo.io/getting-started/configuration/#contentdir
+# Hugoがコンテンツファイルを読み込むディレクトリ。
+# "Module Mounts Config"では異なる設定方法を説明している。(Hugo 0.56以降)
+# contentDir: “content”
+
+# https://gohugo.io/getting-started/configuration/#copyright
+# サイトの著作権表示（典型的にはフッターに表示）を設定する。
+# copyright: ""
+
+# https://gohugo.io/getting-started/configuration/#datadir
+# Hugoがデータファイルを読み込むディレクトリ。
+# "Module Mounts Config"では異なる設定方法を説明している。(Hugo 0.56以降)
+# dataDir: “data”
+
+# https://gohugo.io/getting-started/configuration/#defaultcontentlanguage
+# 言語指定がないコンテンツは，この設定値をデフォルトとする。
+# defaultContentLanguage: “en”
+defaultContentLanguage: “ja”
+
+# https://gohugo.io/getting-started/configuration/#defaultcontentlanguageinsubdir
+# サブディレクトにデフォルトのコンテンツ言語を含める(例, content/en/)かどうかを指定する。
+# 例の場合，サイトのルートディレクトリは/en/へリダイレクトされる。
+# defaultContentLanguageInSubdir: false
+
+# https://gohugo.io/getting-started/configuration/#disablealiases
+# エイリアスのリダイレクト生成を抑止する。たとえ`disableAliases`を設定してもエイリアスのページ自体は存在する。
+# この機能は`.htaccess`やNetlify`_redirects`ファイルなどで、独自の出力形式を使って
+# 301リダイレクトを生成できるようにするためのものである。
+# disableAliases: false
+
 title       : MayaKey Blog
 description : MayaKey Blog
 theme       : PaperMod
 languageCode: en-us
 publishDir  : docs
 
-params:
+params:    
     # defaultTheme: light
     # defaultTheme: dark
     defaultTheme: auto # to switch between dark or light according to browser theme

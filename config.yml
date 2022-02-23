@@ -99,6 +99,7 @@ defaultContentLanguage: “ja”
 # https://gohugo.io/getting-started/configuration/#enableemoji
 # ページコンテンツで絵文字サポートを有効にする。"Emoji Cheat Sheet"を参照のこと。
 # enableEmoji: false
+enableEmoji: true
 
 # https://gohugo.io/getting-started/configuration/#enablegitinfo
 # 各ページで.GitInfoオブジェクトを有効にする（HugoサイトがGitでバージョン管理されている場合)。
@@ -305,3 +306,4 @@ params:
     # defaultTheme: light
     # defaultTheme: dark
     defaultTheme: auto # to switch between dark or light according to browser theme
+    ShowReadingTime: true

@@ -5,7 +5,16 @@
     <link>https://mayakey.github.io/</link>
     <description>Recent content on MayaKey Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 06 Feb 2022 17:26:25 +0900</lastBuildDate><atom:link href="https://mayakey.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 18:20:48 +0900</lastBuildDate><atom:link href="https://mayakey.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo設定見直し</title>
+      <link>https://mayakey.github.io/post/20220223/</link>
+      <pubDate>Wed, 23 Feb 2022 18:20:48 +0900</pubDate>
+      
+      <guid>https://mayakey.github.io/post/20220223/</guid>
+      <description>Hugoの設定ファイルconfig.ymlを見直した。 Hugo公式WebのConfigure Hugoをもとに， 公式の設定値をconfig.y</description>
+    </item>
+    
     <item>
       <title>GitHub Pages 向け静的ページを Hugo で生成してみた</title>
       <link>https://mayakey.github.io/post/20220206/</link>

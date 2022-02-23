@@ -78,11 +78,228 @@ defaultContentLanguage: “ja”
 # 301リダイレクトを生成できるようにするためのものである。
 # disableAliases: false
 
-title       : MayaKey Blog
-description : MayaKey Blog
-theme       : PaperMod
-languageCode: en-us
+# https://gohugo.io/getting-started/configuration/#disablehugogeneratorinject
+# Hugoは特に指定がない場合，ホームページのHTML headへgeneratorを示すmetaタグを挿入する。
+# 挿入しないよう変更できるが，これはHugoの普及度を測る良い手段であるため，そうしないでくれると本当にありがたい。
+# disableHugoGeneratorInject: false
+
+# https://gohugo.io/getting-started/configuration/#disablekinds
+# 指定した種類のすべてのページを無効にできる。リストに指定できる値は以下のとおり。
+# "page", "home", "section", "taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404".
+# disableKinds: []
+
+# https://gohugo.io/getting-started/configuration/#disablelivereload
+# ブラウザウィンドウの自動再読み込みを無効にする。
+# disableLiveReload: false
+
+# https://gohugo.io/getting-started/configuration/#disablepathtolower
+# URL/パスを小文字へ変換しないようにする。
+# disablePathToLower: false
+
+# https://gohugo.io/getting-started/configuration/#enableemoji
+# ページコンテンツで絵文字サポートを有効にする。"Emoji Cheat Sheet"を参照のこと。
+# enableEmoji: false
+
+# https://gohugo.io/getting-started/configuration/#enablegitinfo
+# 各ページで.GitInfoオブジェクトを有効にする（HugoサイトがGitでバージョン管理されている場合)。
+# 各ページのLastmodパラメータは，コンテンツファイルをgit commitした最新の日付に更新される。
+# enableGitInfo: false
+enableGitInfo: true
+
+# https://gohugo.io/getting-started/configuration/#enableinlineshortcodes
+# インラインコードを有効にする。"Inline Shortcodes"を参照のこと。
+# enableInlineShortcodes: false
+
+# https://gohugo.io/getting-started/configuration/#enablemissingtranslationplaceholders
+# 翻訳が見つからない場合，デフォルト値や空文字列の代わりにプレースホルダーを表示する。
+# enableMissingTranslationPlaceholders: false
+
+# https://gohugo.io/getting-started/configuration/#enablerobotstxt
+# robots.txtファイル生成を有効にする。
+# enableRobotsTXT: false
+
+# https://gohugo.io/getting-started/configuration/#frontmatter
+# "Front matter Configuration"を参照のこと。
+# frontmatter
+
+# https://gohugo.io/getting-started/configuration/#footnoteanchorprefix
+# 脚注アンカーの接頭辞を設定する。
+# footnoteAnchorPrefix : ""
+
+# https://gohugo.io/getting-started/configuration/#footnotereturnlinkcontents
+# 脚注から戻るリンクに表示するテキストを設定する。
+# footnoteReturnLinkContents: ""
+
+# https://gohugo.io/getting-started/configuration/#googleanalytics
+# Google アナリティクスの追跡ID(tracking ID)を設定する。
+# googleAnalytics: ""
+
+# https://gohugo.io/getting-started/configuration/#hascjklanguage
+# 有効にすると，コンテンツのCJK言語を自動的に判別する。
+# CJK言語において，.Summaryや.WordCountが正しく動作するようになる。
+# hasCJKLanguage: false
+hasCJKLanguage: true
+
+# https://gohugo.io/getting-started/configuration/#imaging
+# "Image Processing Config"を参照のこと。
+# imaging 
+
+# https://gohugo.io/getting-started/configuration/#languagecode
+# RFC 5646で定められた言語タグを設定する。この設定を用いRSSテンプレートは<language>要素を生成する。
+# その他に使用する箇所はない。
+# languageCode: ""
+
+# https://gohugo.io/getting-started/configuration/#languages
+# "Configure Languages"を参照のこと。
+# languages 
+
+# https://gohugo.io/getting-started/configuration/#disablelanguages
+# "Disable a Language"を参照のこと。
+# disableLanguages 
+
+# https://gohugo.io/getting-started/configuration/#markup
+# "Configure Markup"を参照のこと。 
+# markup 
+
+# https://gohugo.io/getting-started/configuration/#mediatypes
+# "Configure Media Types"を参照のこと。
+# mediaTypes 
+
+# https://gohugo.io/getting-started/configuration/#menus
+# "Add Non-content Entries to a Menu"を参照のこと。
+# menus 
+
+# https://gohugo.io/getting-started/configuration/#minify
+# "Configure Minify"を参照のこと。
+# minify 
+
+# https://gohugo.io/getting-started/configuration/#module
+# モジュール設定は"Module Config"を参照のこと。
+# module 
+
+# https://gohugo.io/getting-started/configuration/#newcontenteditor
+# 新しいコンテンツを作成する際に使用するエディタを設定する。
+# newContentEditor 
+
+# https://gohugo.io/getting-started/configuration/#nochmod
+# ファイルのパーミッション設定を同期しない。
+# noChmod 
+
+# https://gohugo.io/getting-started/configuration/#notimes
+# ファイルの変更日時を同期しない。
+# noTimes 
+
+# https://gohugo.io/getting-started/configuration/#outputformats
+# "Configure Output Formats"を参照のこと。
+# outputFormats 
+
+# https://gohugo.io/getting-started/configuration/#paginate
+# ページ付け時に，ページあたりのデフォルト要素数を設定する。
+# paginate : 10
+
+# https://gohugo.io/getting-started/configuration/#paginatepath
+# ページ付時に使用するパスの文字(https://example.com/page/2).
+# paginatePath: “page”
+
+# https://gohugo.io/getting-started/configuration/#permalinks
+# "Content Management"を参照のこと。
+# permalinks 
+
+# https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+# リストのタイトルを複数形にする。
+# pluralizeListTitles: true
+
+# https://gohugo.io/getting-started/configuration/#publishdir
+# Hugoが最終的に静的サイト(HTMLファイルなど)を出力するディレクトリを設定する。
+# publishDir: public
 publishDir  : docs
+
+# https://gohugo.io/getting-started/configuration/#related
+# "Related Content"を参照のこと。
+# related 
+
+# https://gohugo.io/getting-started/configuration/#relativeurls
+# すべての相対URLはコンテンツルートからの相対パスとみなす。この設定は絶対URLには影響しない点に注意。
+# relativeURLs 
+
+# https://gohugo.io/getting-started/configuration/#reflinkserrorlevel
+# refやrelfrefを用いてもページリンクを解決できない場合，どのログレベルで記録するか設定する。
+# 有効な設定値はERROR(デフォルト値)またはWARNING。ERRORが発生するとビルド失敗となり，-1で処理を終了する。
+# refLinksErrorLevel: “ERROR”
+
+# https://gohugo.io/getting-started/configuration/#reflinksnotfoundurl
+# refやrelrefでページ参照を解決できない際に，プレースホルダーとして使用するURLを設定する。
+# As-Is(そのまま)使用される。
+# refLinksNotFoundURL 
+
+# https://gohugo.io/getting-started/configuration/#removepathaccents
+# コンテンツパスに存在する空白ではない合字記号を取り除く。
+# content/post/hügó.md --> https://example.org/post/hugo/
+# removePathAccents: false
+
+# https://gohugo.io/getting-started/configuration/#rsslimit
+# RSSフィードに含める項目数の最大値を設定する。
+# rssLimit 
+
+# https://gohugo.io/getting-started/configuration/#sectionpagesmenu
+# “Section Menu for Lazy Bloggers”を参照のこと。
+# sectionPagesMenu 
+
+# https://gohugo.io/getting-started/configuration/#security
+# "Security Policy"を参照のこと。
+# security 
+
+# https://gohugo.io/getting-started/configuration/#sitemap
+# デフォルトのサイトマップ設定。
+# sitemap 
+
+# https://gohugo.io/getting-started/configuration/#summarylength
+# .Summaryに表示するテキストの語数を設定する。
+# summaryLength: 70
+
+# https://gohugo.io/getting-started/configuration/#taxonomies
+# "Configure Taxonomies"を参照のこと。
+# taxonomies 
+
+# https://gohugo.io/getting-started/configuration/#theme
+# テーマのインポート方法は"Module Config"を参照のこと。
+# theme 
+theme: PaperMod
+
+# https://gohugo.io/getting-started/configuration/#themesdir
+# Hugoがテーマを読み込むディレクトリを指定する。
+# themesDir: “themes”
+
+# https://gohugo.io/getting-started/configuration/#timeout
+# ページコンテンツ生成時のタイムアウト値をGo言語のduration形式またはミリ秒で指定する。
+# 注意:　この設定は再帰的なコンテンツ生成から脱出するために使用される。ページ生成に時間がかかる
+# 場合(たとえば大きな画像の処理やリモートコンテンツに依存するなど)は設定値を上げる必要があるかもしれない。
+# timeout: “30s”
+
+# https://gohugo.io/getting-started/configuration/#timezone
+# front matterで時刻帯の指定がない日付の解析時や時刻関数の呼び出し時に使用する
+# 時刻帯または場所(例えば欧州/オスロ)を設定する。有効な値はシステムに依存するが，
+# UTC，LocalまたはIANAタイムゾーンデータベースの値は含まれるだろう。
+# timeZone 
+timeZone: Asia/Tokyo
+
+# https://gohugo.io/getting-started/configuration/#title
+# サイトのタイトルを設定する。
+# title
+title: MayaKey Blog
+
+# https://gohugo.io/getting-started/configuration/#titlecasestyle
+# "Configure Title Case"を参照のこと。
+# titleCaseStyle: “AP”
+
+# https://gohugo.io/getting-started/configuration/#uglyurls
+# 有効にすると/filename/ではなく/filename.htmlの形式でURLを生成する。
+# When enabled, creates URL of the form /filename.html instead of /filename/.
+# uglyURLs 
+
+# https://gohugo.io/getting-started/configuration/#watch
+# 変更や再生成を必要に応じて行うため，ファイルシステムを監視する。
+# watch 
 
 params:    
     # defaultTheme: light
